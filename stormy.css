@@ -1,0 +1,67 @@
+@font-face{
+	font-family:'Icomoon';
+	src: url('./fonts/icomoon.woff');
+	format('woff');
+	font-weight: normal;
+	font-style:normal;
+}
+
+[class^="icon-"], [class*=" icon-"]{
+	font-family: 'Icomoon';
+}
+.icon-screen:before{
+	content: "\e600";
+	color: white;
+	margin-top: 10px;
+	font-size: 40px;
+	
+}
+.icon-mobile:before{
+	content: "\e601";
+    color: white;
+    font-size: 40px;
+}
+.icon-tablet:before{
+	content: "\e602";
+	color: white;
+	padding-top: 10px;
+	font-size: 40px; 
+}
+.main {
+	background: url("stormy-weather-background.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+.header{
+	background:rgba(0,0,0,0.5);
+}
+
+header {
+	margin-top: -40px !important;
+	display: flex !important;
+	justify-content: space-between;
+}
+#background{
+	color: white;
+	font-size: 50px;
+	padding: 10px;
+	padding-left: 100px;
+}
+.container-custom{
+	margin-top: 30px;
+	margin-left: 50px;
+	border-style: double;
+	background-color: black;
+	width:25%;
+	height: 300px;
+	border-color: white;
+}
+blockquote{
+   	border-left:none !important;
+}
+p{
+  color: white;
+}
+
+nav{
+	padding-top:25px;
+}
